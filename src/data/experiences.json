@@ -1,0 +1,30 @@
+[
+    {
+        "role": "Senior Product Manager",
+        "company": "Nexford",
+        "logoUrl": "https://www.nexford.edu/static/nxu-og-61de6b9a0345514fd1a713c745026fa2.png",
+        "duration": "November 2022 - Present",
+        "description": "Joined Nexford after their Series A round. Mentored the PM team, achieving over 50% growth in active learners, 20% increase in Month-on-Month Retention, and a rise in Academic Start Rate from 70% to 90% in 6 months. Reduced support tickets per customer by 4.5X and increased NPS by 20%. Key achievements include shipping a portal for learners, an ML-backed automated outreach system, two new programs, two 3rd party integrations, and revamping the application flow. Pivoted the organization to focus on new enrollments."
+    },
+    {
+        "role": "Senior Product Manager",
+        "company": "Labster",
+        "logoUrl": "https://cdn.mos.cms.futurecdn.net/wqpmsqhncpMgwjgiVXkahZ.jpg",
+        "duration": "June 2021 - November 2022",
+        "description": "At this Silicon Valley VC-backed edtech SaaS scale-up, integrated Labster’s virtual laboratory simulations into teachers' learning management systems. Developed internal tools for customer onboarding and support, improving NPS from 40 to 62 and decreasing support issues by 40% year on year. Migrated 98% of B2B customers and hundreds of thousands of students to the new platform. Also served part-time as Product Operations Lead, unifying tools and processes across product teams."
+    },
+    {
+        "role": "Head of Product",
+        "company": "Roxor Gaming",
+        "logoUrl": "https://sp-ao.shortpixel.ai/client/to_auto,q_lossless,ret_img,w_701,h_569/https://www.roxorgaming.com/wp-content/uploads/2020/02/Asset-5.png",
+        "duration": "September 2019 - June 2021",
+        "description": "Led the Ecosystem vertical for this B2B game provider, focusing on Free Games Rewards and Jackpots products. Managed and mentored three product managers, increasing average active days by 0.5 days (11%), daily active users by 100,000 (50%), and week-on-week retention from 78% to 83%. Championed an outcome-oriented, experimentation-focused approach and reduced development lead time by 50% through process and organizational design change."
+    },
+    {
+        "role": "(Senior) Product Owner",
+        "company": "Gamesys Group",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Gamesys3.png",
+        "duration": "July 2012 - September 2019",
+        "description": "Led the Games Platform vertical for this global B2C gaming operator, focusing on Poker, Bingo, Live Dealer, and Free Games. Grew Poker's active users by 10x over 18 months."
+    }
+]

@@ -1,0 +1,19 @@
+[
+    { "name": "Product Strategy", "imageUrl": "https://cdn5.vectorstock.com/i/1000x1000/09/69/product-manager-strategy-plan-icon-outline-style-vector-35590969.jpg" },
+    { "name": "Prioritisation", "imageUrl": "https://cdn-icons-png.flaticon.com/512/5360/5360838.png"},
+    { "name": "Goal Setting", "imageUrl": "https://cdn-icons-png.flaticon.com/512/8898/8898451.png"},
+    { "name": "Project Management", "imageUrl": "https://banner2.cleanpng.com/20180404/ype/kisspng-computer-icons-business-management-human-resource-5ac593e570f782.6785885615228978934627.jpg"},
+    { "name": "Data Analysis", "imageUrl": "https://cdn-icons-png.flaticon.com/512/4176/4176903.png" },
+    { "name": "UX Research", "imageUrl": "https://static.thenounproject.com/png/2457895-200.png"},
+    { "name": "Product Experimentation", "imageUrl": "https://cdn-icons-png.flaticon.com/512/4623/4623813.png"},
+    { "name": "A/B Testing", "imageUrl": "https://cdn-icons-png.flaticon.com/512/5072/5072933.png"},
+    { "name": "Mockups / Wireframes", "imageUrl": "https://cdn-icons-png.flaticon.com/512/1420/1420991.png"},
+    { "name": "Technical Knowledge", "imageUrl": "https://cdn-icons-png.flaticon.com/512/3176/3176315.png"},
+    { "name": "Integrations and APIs", "imageUrl": "https://media.istockphoto.com/id/1330147576/vector/data-integration-outline-icon-vector-for-graphic-design-logo-web-site-social-media-mobile.jpg?s=612x612&w=0&k=20&c=OZA-nDnQ2vIks8aNck7ONB25TgeMLHHvNc0u7LlGfX8="},
+    { "name": "Mentoring", "imageUrl": "https://cdn-icons-png.flaticon.com/512/6012/6012753.png"},
+    { "name": "Stakeholder Collaboration", "imageUrl": "https://cdn-icons-png.flaticon.com/512/809/809522.png"},
+    { "name": "Communication", "imageUrl": "https://static-00.iconduck.com/assets.00/meeting-presentation-icon-1024x1024-lu23pl61.png"},
+    { "name": "Time Management", "imageUrl": "https://cdn-icons-png.flaticon.com/512/4388/4388160.png"},
+    { "name": "Remote and Async Work", "imageUrl": "https://static.thenounproject.com/png/1349803-200.png"}
+    
+]

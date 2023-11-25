@@ -1,0 +1,15 @@
+[
+    { "name": "Jira", "imageUrl": "https://cdn.icon-icons.com/icons2/2699/PNG/512/atlassian_jira_logo_icon_170511.png" },
+    { "name": "Azure DevOps", "imageUrl": "https://www.incredibuild.com/wp-content/uploads/2020/09/azure_devops-1.png" },
+    { "name": "Confluence", "imageUrl": "https://seeklogo.com/images/C/confluence-logo-D9B07137C2-seeklogo.com.png" },
+    { "name": "Miro", "imageUrl": "https://asset.brandfetch.io/idAnDTFapY/idYC5f2L1X.png" },
+    { "name": "Aha!", "imageUrl": "https://download.logo.wine/logo/Aha!_(company)/Aha!_(company)-Logo.wine.png" },
+    { "name": "Hotjar", "imageUrl": "https://theme.zdassets.com/theme_assets/1911667/21756e0851bed01eab3adfe2a6bc1c20248afeb9.ico" },
+    { "name": "Posthog", "imageUrl": "https://seeklogo.com/images/P/posthog-icon-logo-39846327A9-seeklogo.com.png" },
+    { "name": "Google Analytics", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/GAnalytics.svg/1200px-GAnalytics.svg.png" },
+    { "name": "Usertesting", "imageUrl": "https://seeklogo.com/images/U/usertesting-logo-B7E00528C4-seeklogo.com.png" },
+    { "name": "Tableau", "imageUrl": "https://www.lib.washington.edu/dataservices/images/Tableau_Software_logo.png/image" },
+    { "name": "Power BI", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/1200px-New_Power_BI_Logo.svg.png" },
+    { "name": "Salesforce", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/1280px-Salesforce.com_logo.svg.png" },
+    { "name": "HubSpot", "imageUrl": "https://pbs.twimg.com/profile_images/1500923494665797632/VytKgxOP_400x400.jpg" }    
+]
