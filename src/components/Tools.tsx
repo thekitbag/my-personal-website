@@ -8,7 +8,7 @@ const Tools: React.FC = () => {
         <IonGrid>
             <IonRow>
                 {tools.map((tool, index) => (
-                    <IonCol size="1.5" key={index}>
+                    <IonCol size-xs="4" size-sm="4" size-md="2"key={index}>
                         <IonCard>
                             <IonCardContent>
                                 <IonImg src={tool.imageUrl} style={{ height: '50px', marginBottom: '10px' }} />

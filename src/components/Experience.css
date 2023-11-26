@@ -1,5 +1,66 @@
-.expand-icon {
-    float: right;
-    margin-right: 15px;
-    font-size: 1.5em;
+.experience-card {
+    transition: transform 0.3s ease;
 }
+
+.experience-card.expanded {
+    /* Optional: Apply some styling when the card is expanded */
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    padding: 16px; 
+}
+
+.company-logo {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+    margin-right: 16px; 
+}
+
+.expand-icon {
+    margin-left: auto;
+    padding: 16px; 
+    cursor: pointer; 
+}
+
+.experience-card {
+    /* ... existing styles ... */
+}
+
+.experience-card.expanded .ion-card-content {
+    font-size: 1.1rem;
+    line-height: 1.4; 
+    color: var(--ion-text-color); 
+}
+
+.experience-card.expanded .ion-card-title {
+    font-size: 1.3rem; 
+    font-weight: 600; 
+    margin-bottom: 0.5rem; 
+}
+
+.experience-card.expanded .ion-card-subtitle {
+    font-size: 1.1rem; 
+    color: var(--ion-color-medium); 
+    margin-bottom: 1rem; 
+}
+
+.experience-card.expanded {
+    padding: 1rem; 
+}
+
+/* Additional styling for the description text */
+.experience-card.expanded .ion-card-content {
+    padding: 16px 16px 0; 
+    text-align: left;
+    color: var(--ion-color-dark);
+}
+
+@media (min-width: 576px) {
+    .experience-card {
+        cursor: pointer;
+    }
+}
+

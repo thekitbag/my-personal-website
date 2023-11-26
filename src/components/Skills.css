@@ -1,0 +1,21 @@
+    .skill-card ion-img {
+    width: auto; 
+    max-height: 50px; 
+    margin-bottom: 10px;
+  }
+  
+  .skill-card-title {
+    font-size: 0.9rem; 
+    min-height: 3rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .skill-card-title {
+      font-size: 1rem; 
+    }
+  }
