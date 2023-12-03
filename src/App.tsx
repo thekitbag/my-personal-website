@@ -22,7 +22,21 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+import TagManager from 'react-gtm-module'
+
+const gtmId = import.meta.env.MODE === 'development' ? import.meta.env.VITE_GTM_DEVELOPMENT : import.meta.env.VITE_GTM_PRODUCTION;
+
+const initGTM = () => {
+  const tagManagerArgs = {
+    gtmId: gtmId
+  };
+
+  TagManager.initialize(tagManagerArgs);
+}
+
 setupIonicReact();
+initGTM();
+
 
 const App: React.FC = () => (
   <IonApp>

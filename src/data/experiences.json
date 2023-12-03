@@ -2,16 +2,21 @@
     {
         "role": "Senior Product Manager",
         "company": "Nexford",
+        "company_type": "100 person Series-A VC-backed Edtech Startup",
+        "tags": ["Edtech", "Startup", "Machine Learning", "A\/B Testing", "Mentoring", "Retention"],
+        "outcomes": ["Increased academic start rate (Activation) from 70% to over 90%", "Increased active learners by over 50%", "Reduced support tickets per customer by 4.5x", "Increased NPS by 20%"],
+        "outputs": ["Facilitated Learner Success 2.0 project to focus multiple teams on the new learner experience", "Created an automated outreach system for new learners based on a machine learning algorithm.", "Launched a learner facing portal to replace exisitng payment solution and migrated 98% of learners to it.", "Integrated two third-party content providers."],
         "logoUrl": "https://www.nexford.edu/static/nxu-og-61de6b9a0345514fd1a713c745026fa2.png",
         "duration": "November 2022 - Present",
-        "description": "Joined Nexford after their Series A round. Mentored the PM team, achieving over 50% growth in active learners, 20% increase in Month-on-Month Retention, and a rise in Academic Start Rate from 70% to 90% in 6 months. Reduced support tickets per customer by 4.5X and increased NPS by 20%. Key achievements include shipping a portal for learners, an ML-backed automated outreach system, two new programs, two 3rd party integrations, and revamping the application flow. Pivoted the organization to focus on new enrollments."
+        "description": "Nexford is a global online-only university. I joined as the second and most senior product hire after they raised their Series A round and have been instrumental in growing active learners by more than 50% in 12 months. I was the PM for a cross-functional scrum team which launched myNXU, a portal for learners to manage their programs and make payments which helped reduce support tickets per customer by 4.5x over 6 months. I Headed up the Learner Success 2.0 initiative which, thanks to efforts across multiple departments, saw Academic Start Rate (activation) rise from 70% to 92% in 6 months. Together with the data scientist we created a machine-learning backed outreach system which helped increase Academic Start Rate and saved over 100 hours of Success Advisor time per month. I mentored the Junior Product Manager, providing regular coaching and focus areas. I modelled active learner growth numbers and pivoted the whole organisation to focus on increasing acquisition rather than activation and retention. I took on data analyst responsibilities when the data scientist left providing data and analysis to the senior management team."
     },
     {
         "role": "Senior Product Manager",
         "company": "Labster",
+        "tags": ["Edtech", "SaaS", "Mentoring"],
         "logoUrl": "https://cdn.mos.cms.futurecdn.net/wqpmsqhncpMgwjgiVXkahZ.jpg",
         "duration": "June 2021 - November 2022",
-        "description": "At this Silicon Valley VC-backed edtech SaaS scale-up, integrated Labster’s virtual laboratory simulations into teachers' learning management systems. Developed internal tools for customer onboarding and support, improving NPS from 40 to 62 and decreasing support issues by 40% year on year. Migrated 98% of B2B customers and hundreds of thousands of students to the new platform. Also served part-time as Product Operations Lead, unifying tools and processes across product teams."
+        "description": "Labster offers virtual laboratory simulations to over 1800 schools and universities across the world and almost a million students. I joined after a $47m series C round led by Andreessen Horowitz. I was the PM for the cross-functional scrum team that built new integrations with 6 Learning management systems using the latest LTI1.3 protocol and an internal tool for onboarding and supporting customers tha integrated with Salesforce. I coordinated marketing and customer success to move customers over to the new integration which saw customer NPS rise from 40 to 62 and support issues reduce by 40% year on year. I took on a part-time Product Operations Lead role, unifying tools and processes across product teams together with the Product Ops Analyst that I mentored."
     },
     {
         "role": "Head of Product",
