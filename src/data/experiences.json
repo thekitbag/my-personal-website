@@ -3,9 +3,9 @@
         "role": "Senior Product Manager",
         "company": "Nexford",
         "company_type": "100 person Series-A VC-backed Edtech Startup",
-        "tags": ["Edtech", "Startup", "Machine Learning", "A\/B Testing", "Mentoring", "Retention"],
-        "outcomes": ["Increased academic start rate (Activation) from 70% to over 90%", "Increased active learners by over 50%", "Reduced support tickets per customer by 4.5x", "Increased NPS by 20%"],
-        "outputs": ["Facilitated Learner Success 2.0 project to focus multiple teams on the new learner experience", "Created an automated outreach system for new learners based on a machine learning algorithm.", "Launched a learner facing portal to replace exisitng payment solution and migrated 98% of learners to it.", "Integrated two third-party content providers."],
+        "tags": ["B2C", "Startup", "Edtech", "Machine Learning", "Mentoring", "SQL", "Scrum", "Growth", "A/B testing"],
+        "intro": "Nexford is a global online-only university. I joined as the second and most senior product hire after they raised their Series A round and have been instrumental in growing active learners by more than 50% in 12 months.",
+        "bullets": ["I was the PM for a cross-functional scrum team which launched myNXU, a portal for learners to manage their programs and make payments which helped reduce support tickets per customer by 4.5x over 6 months.", "I Headed up the Learner Success 2.0 initiative which, thanks to efforts across multiple departments, saw Academic Start Rate (activation) rise from 70% to 92% in 6 months.", "Together with the data scientist we created a machine-learning backed outreach system which helped increase Academic Start Rate and saved over 100 hours of Success Advisor time per month.", "I mentored the Junior Product Manager, providing regular coaching and focus areas.", "I modelled active learner growth numbers and pivoted the whole organisation to focus on increasing acquisition rather than activation and retention.", "I took on data analyst responsibilities when the data scientist left providing data and analysis to the senior management team."],
         "logoUrl": "https://www.nexford.edu/static/nxu-og-61de6b9a0345514fd1a713c745026fa2.png",
         "duration": "November 2022 - Present",
         "description": "Nexford is a global online-only university. I joined as the second and most senior product hire after they raised their Series A round and have been instrumental in growing active learners by more than 50% in 12 months. I was the PM for a cross-functional scrum team which launched myNXU, a portal for learners to manage their programs and make payments which helped reduce support tickets per customer by 4.5x over 6 months. I Headed up the Learner Success 2.0 initiative which, thanks to efforts across multiple departments, saw Academic Start Rate (activation) rise from 70% to 92% in 6 months. Together with the data scientist we created a machine-learning backed outreach system which helped increase Academic Start Rate and saved over 100 hours of Success Advisor time per month. I mentored the Junior Product Manager, providing regular coaching and focus areas. I modelled active learner growth numbers and pivoted the whole organisation to focus on increasing acquisition rather than activation and retention. I took on data analyst responsibilities when the data scientist left providing data and analysis to the senior management team."
@@ -13,7 +13,13 @@
     {
         "role": "Senior Product Manager",
         "company": "Labster",
-        "tags": ["Edtech", "SaaS", "Mentoring"],
+        "company_type":"300 person Series C VC-backed B2B Edtech SaaS Scale-up",
+        "tags": ["B2B", "Scaleup", "Edtech", "VC-backed ", "SaaS", "Integrations", "Scrum", "InternalTools"],
+        "intro": "Labster offers virtual laboratory simulations to over 1800 schools and universities across the world and almost a million students. I joined after a $47m series C round led by Andreessen Horowitz.",
+        "bullets": ["I was the PM for the cross-functional scrum team that built new integrations with 6 Learning management systems using the latest LTI1.3 protocol and an internal tool for onboarding and supporting customers tha integrated with Salesforce.",
+                    "I coordinated marketing and customer success to move customers over to the new integration which saw customer NPS rise from 40 to 62 and support issues reduce by 40% year on year.",
+                    "I took on a part-time Product Operations Lead role, unifying tools and processes across product teams together with the Product Ops Analyst that I mentored."
+                ],           
         "logoUrl": "https://cdn.mos.cms.futurecdn.net/wqpmsqhncpMgwjgiVXkahZ.jpg",
         "duration": "June 2021 - November 2022",
         "description": "Labster offers virtual laboratory simulations to over 1800 schools and universities across the world and almost a million students. I joined after a $47m series C round led by Andreessen Horowitz. I was the PM for the cross-functional scrum team that built new integrations with 6 Learning management systems using the latest LTI1.3 protocol and an internal tool for onboarding and supporting customers tha integrated with Salesforce. I coordinated marketing and customer success to move customers over to the new integration which saw customer NPS rise from 40 to 62 and support issues reduce by 40% year on year. I took on a part-time Product Operations Lead role, unifying tools and processes across product teams together with the Product Ops Analyst that I mentored."
@@ -21,6 +27,12 @@
     {
         "role": "Head of Product",
         "company": "Roxor Gaming",
+        "company_type":"200 person B2B gaming startup",
+        "tags": ["B2B","Scaleup","Gaming","ProductLeadership","A/B Testing","Experimentation"],
+        "intro": "Roxor (recently acquired by Aristocrat Gaming) provided games to some of the biggest gaming operators in the UK with over 400,000 weekly players.",
+        "bullets": ["I led the Ecosystem product vertical focused on retention.I defined the product strategy, managed the Jackpots and Rewards PMs and was the PM for the Free Games team.",
+                    "I championed an outcome-oriented, experimentation approach based on OKRs.",
+                    "We shipped various features increased average active days by 0.5 days (11%), Increased daily active users by 100,000 (50%) and Increased week on week retention from 78% to 83%."],
         "logoUrl": "https://sp-ao.shortpixel.ai/client/to_auto,q_lossless,ret_img,w_701,h_569/https://www.roxorgaming.com/wp-content/uploads/2020/02/Asset-5.png",
         "duration": "September 2019 - June 2021",
         "description": "Led the Ecosystem vertical for this B2B game provider, focusing on Free Games Rewards and Jackpots products. Managed and mentored three product managers, increasing average active days by 0.5 days (11%), daily active users by 100,000 (50%), and week-on-week retention from 78% to 83%. Championed an outcome-oriented, experimentation-focused approach and reduced development lead time by 50% through process and organizational design change."
@@ -28,6 +40,14 @@
     {
         "role": "(Senior) Product Owner",
         "company": "Gamesys Group",
+        "company_type":"International B2C gaming operator",
+        "tags": ["B2C","Scaleup","Gaming","Management"],
+        "intro": "Gamesys was a gaming operator with well known brands in the UK, US and Europe and millions of monthly players. They were recently acquired by Bally’s for $2 billion. I got my start in product here.",
+        "bullets": ["I was the Product Owner for 3 different scrum teams working on a freemium Poker product.",
+                    "I launched a cash Poker product and grew active users and revenue by 25x over 18 months.",
+                    "I became Senior PO for Games Platform, managing the Bingo and Live Dealer Product Owners.",
+                    "I worked with legal and marketing to create a tax-efficient promotional game that generated over £1million per month.",
+                    "I won the Kicking the Lamp award for the employee who goes above and beyond what is expected of them."],
         "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Gamesys3.png",
         "duration": "July 2012 - September 2019",
         "description": "Led the Games Platform vertical for this global B2C gaming operator, focusing on Poker, Bingo, Live Dealer, and Free Games. Grew Poker's active users by 10x over 18 months."

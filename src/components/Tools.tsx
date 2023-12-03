@@ -9,7 +9,7 @@ const Tools: React.FC = () => {
             <IonRow>
                 {tools.map((tool, index) => (
                     <IonCol size-xs="4" size-sm="4" size-md="2"key={index}>
-                        <IonCard>
+                        <IonCard className='card-component'>
                             <IonCardContent>
                                 <IonImg src={tool.imageUrl} style={{ height: '50px', marginBottom: '10px' }} />
                                 <div className="tool-card-title">{tool.name}</div>
