@@ -4,6 +4,7 @@ import Tools from '../components/Tools';
 import Skills from '../components/Skills';
 import Frameworks from '../components/Frameworks';
 import './Home.css'
+import ContactInfo from '../components/Contact';
 
 
 const HomePage = () => {
@@ -15,6 +16,7 @@ const HomePage = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
+        <ContactInfo />
         <IonItem lines="none">
           <IonList>
             <IonTitle className="section-header">About Me</IonTitle>
