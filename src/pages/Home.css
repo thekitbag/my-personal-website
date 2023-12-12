@@ -35,3 +35,16 @@
   .experience-card:hover {
     cursor: pointer;
   }
+
+  @media (min-width: 768px) { /* Targeting desktop screens */
+    .ion-hide-md-up {
+      display: none !important; /* Hide elements for desktop screens */
+    }
+  }
+  
+  @media (max-width: 767px) { /* Targeting mobile screens */
+    .ion-hide-md-down {
+      display: none !important; /* Hide elements for mobile screens */
+    }
+  }
+  

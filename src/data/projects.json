@@ -1,0 +1,9 @@
+[
+    {"title": "Harkwise",
+    "user": "Small real-world businesseses",
+    "description": "Web analytics for real-world businesses through QR codes and AI-synthesised insights",
+    "codeUrl": "https://github.com/search?q=owner%3Athekitbag+harkwise&type=repositories",
+    "technologies": ["Flask", "Ionic", "React", "Docker", "Postgres", "Azure" ],
+    "imageUrl": "https://www.google.com"
+    }
+]

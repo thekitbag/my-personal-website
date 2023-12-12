@@ -1,23 +1,63 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonItem, IonText, IonList } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonItem, IonText, IonList, IonButton, IonButtons, IonMenuButton, IonMenu } from '@ionic/react';
+import { menuController } from '@ionic/core';
 import Experience from '../components/Experience';
 import Tools from '../components/Tools';
 import Skills from '../components/Skills';
 import Frameworks from '../components/Frameworks';
 import './Home.css'
 import ContactInfo from '../components/Contact';
-
+import Projects from '../components/Projects';
 
 const HomePage = () => {
+
+  const scrollToSection = async (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    section?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    await menuController.close();
+  };
+
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
           <IonTitle>Mark Gray - Product Leader</IonTitle>
+          <IonButtons slot="start" className="ion-hide-md-up">
+            <IonMenuButton autoHide={false}></IonMenuButton>
+          </IonButtons>
+          <IonButtons slot="end" className="ion-hide-md-down">
+            <IonButton onClick={() => scrollToSection('contact')}>Contact</IonButton>
+            <IonButton onClick={() => scrollToSection('about')}>About Me</IonButton>
+            <IonButton onClick={() => scrollToSection('skills')}>Skills</IonButton>
+            <IonButton onClick={() => scrollToSection('frameworks')}>Frameworks</IonButton>
+            <IonButton onClick={() => scrollToSection('experience')}>Experience</IonButton>
+            <IonButton onClick={() => scrollToSection('tools')}>Tools</IonButton>
+            <IonButton onClick={() => scrollToSection('blog')}>Blog</IonButton>
+          </IonButtons>
         </IonToolbar>
       </IonHeader>
-      <IonContent className="ion-padding">
+      <IonMenu contentId="main-content" side="start" className="ion-hide-md-up">
+        <IonHeader>
+          <IonToolbar>
+            <IonTitle>Menu</IonTitle>
+          </IonToolbar>
+        </IonHeader>
+        <IonContent>
+          <IonList>
+            <IonItem button onClick={() => scrollToSection('contact')}>Contact</IonItem>
+            <IonItem button onClick={() => scrollToSection('about')}>About Me</IonItem>
+            <IonItem button onClick={() => scrollToSection('skills')}>Skills</IonItem>
+            <IonItem button onClick={() => scrollToSection('frameworks')}>Frameworks</IonItem>
+            <IonItem button onClick={() => scrollToSection('experience')}>Experience</IonItem>
+            <IonItem button onClick={() => scrollToSection('tools')}>Tools</IonItem>
+            <IonItem button onClick={() => scrollToSection('blog')}>Blog</IonItem>
+          </IonList>
+        </IonContent>
+      </IonMenu>
+      <IonContent className="ion-padding" id="main-content">
+        <div id='contact' />
         <ContactInfo />
-        <IonItem lines="none">
+        <IonItem lines="none" id="about">
           <IonList>
             <IonTitle className="section-header">About Me</IonTitle>
             <IonText className='section-blurb'>
@@ -30,7 +70,7 @@ const HomePage = () => {
             </IonText>
           </IonList>
         </IonItem>
-        <IonItem lines='none'>
+        <IonItem lines='none' id="skills">
           <IonList>
             <IonTitle className="section-header">Skills</IonTitle>
             <IonText className='section-blurb'>
@@ -39,7 +79,7 @@ const HomePage = () => {
             <Skills />
           </IonList>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem lines="none" id="frameworks">
           <IonList>
             <IonTitle className="section-header">Frameworks</IonTitle>
             <IonText className='section-blurb'>
@@ -50,7 +90,7 @@ const HomePage = () => {
             <Frameworks />
           </IonList>
         </IonItem>
-        <IonItem lines='none'>
+        <IonItem lines='none' id="experience">
           <IonList>
             <IonTitle className="section-header">Professional Experience</IonTitle>
             <IonText className='section-blurb'>
@@ -61,7 +101,7 @@ const HomePage = () => {
             <Experience  />
           </IonList>
         </IonItem>
-        <IonItem lines='none'>
+        <IonItem lines='none' id='tools'>
           <IonList>
             <IonTitle className="section-header">Tools</IonTitle>
             <IonText className='section-blurb'>
@@ -71,9 +111,24 @@ const HomePage = () => {
             <Tools />
           </IonList>
         </IonItem>
+        <IonItem lines='none' id='projects'>
+          <IonList>
+            <IonTitle className="section-header">Projects</IonTitle>
+            <IonText className='section-blurb'>
+              When I first started working as a PM I took an interest in the technical side of things. I taught myself how to code and 
+              created various little projects to sharpen my skills.
+            </IonText>
+            <Projects />
+          </IonList>
+        </IonItem>
       </IonContent>
     </IonPage>
   );
 };
 
 export default HomePage;
+
+function useIonMenuToggle() {
+  throw new Error('Function not implemented.');
+}
+
