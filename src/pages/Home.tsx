@@ -32,6 +32,7 @@ const HomePage = () => {
             <IonButton onClick={() => scrollToSection('frameworks')}>Frameworks</IonButton>
             <IonButton onClick={() => scrollToSection('experience')}>Experience</IonButton>
             <IonButton onClick={() => scrollToSection('tools')}>Tools</IonButton>
+            <IonButton onClick={() => scrollToSection('projects')}>Projects</IonButton>
             <IonButton onClick={() => scrollToSection('blog')}>Blog</IonButton>
           </IonButtons>
         </IonToolbar>

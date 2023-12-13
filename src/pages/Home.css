@@ -25,6 +25,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
     height: 100%;
+    width: 100%;
   }
 
   .card-component:hover {
@@ -35,6 +36,38 @@
   .experience-card:hover {
     cursor: pointer;
   }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  project-card-component{
+
+  }
+  
+  .tech-chip-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 8px; 
+  }
+  
+  .button-container {
+    margin-top: auto; 
+    width: 100%;
+  }
+  
+  .view-code-button {
+    width: 100%; /* This ensures the button expands to the full width */
+  }
+  
+  /* Ensure ion-col has a defined height */
+  ion-col {
+    display: flex;
+  }
+  
 
   @media (min-width: 768px) { /* Targeting desktop screens */
     .ion-hide-md-up {

@@ -1,9 +1,38 @@
-[
-    {"title": "Harkwise",
-    "user": "Small real-world businesseses",
-    "description": "Web analytics for real-world businesses through QR codes and AI-synthesised insights",
-    "codeUrl": "https://github.com/search?q=owner%3Athekitbag+harkwise&type=repositories",
-    "technologies": ["Flask", "Ionic", "React", "Docker", "Postgres", "Azure" ],
-    "imageUrl": "https://www.google.com"
+[   {
+        "title": "www.markfaradaygray.com",
+        "description": "this website!",
+        "codeUrl": "https://github.com/thekitbag/my-personal-website",
+        "technologies": ["Ionic", "React", "Typescript", "Docker", "Azure"]
+    },
+    {
+        "title": "Harkwise",
+        "description": "User feedback and analytics for real-world businesses through QR codes and AI-synthesised insights",
+        "codeUrl": "https://github.com/search?q=owner%3Athekitbag+harkwise&type=repositories",
+        "technologies": ["Flask", "Ionic", "React", "Typescript", "Docker", "Postgres", "Azure"]
+    },
+    {
+        "title": "Hedgehog",
+        "description": "A personal assistant for technophobes.",
+        "codeUrl": "https://github.com/search?q=owner%3Athekitbag+gpthedgehog&type=repositories",
+        "technologies": ["Flask", "Ionic", "React", "Typescript", "Docker", "Postgres", "Azure", "ChatGPT-API"]
+    },
+    {
+        "title": "Todoodleoo",
+        "description": "To-do list app.",
+        "code_url": "https://github.com/search?q=owner%3Athekitbag+todoodleoo&type=repositories",
+        "technologies": ["Flask", "React", "JavaScript", "Bootstrap", "Docker", "Postgres", "Azure", "ChatGPT-API"]
+    },
+    {
+        "title": "prices-scraper",
+        "description": "Webscraping app for building a respository of second hand machinery. For my dad :)",
+        "code_url": "https://github.com/thekitbag/prices-scraper",
+        "technologies": ["Python", "Heroku"]
+    },
+    {
+        "title": "truscore",
+        "description": "A ratings and reviews site designed to combat fake ratings.",
+        "code_url": "https://github.com/thekitbag/truscore",
+        "technologies": ["Python", "Flask", "Heroku"]
     }
+
 ]
