@@ -33,7 +33,7 @@ const Experience: React.FC = () => {
                     const isExpanded = expanded === typedExperience.company;
                     return (
                         <IonCol size-xs="12" size-sm={isExpanded ? "12" : "6"} key={index}>
-                            <IonCard className={`experience-card ${isExpanded ? 'expanded' : ''}`} onClick={() => toggleExpand(experience.company)}>
+                            <IonCard className= {`experience-card card-component ${isExpanded ? 'expanded' : ''}`} onClick={() => toggleExpand(experience.company)}>
                                 <div className='card-header'>
                                     <IonImg src={experience.logoUrl} className='company-logo' />
                                     <IonCardHeader>

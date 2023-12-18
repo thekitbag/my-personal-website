@@ -15,6 +15,10 @@
     margin-top: 0; 
   }
 
+.section-list {
+  width: 100%;
+}
+
   .card-component {
     display: flex;
     flex-direction: column;
@@ -43,8 +47,9 @@
     height: 100%;
   }
 
-  project-card-component{
-
+  .contact-card {
+    display: flex;
+    justify-content: space-between;
   }
   
   .tech-chip-container {
@@ -78,6 +83,10 @@
   @media (max-width: 767px) { /* Targeting mobile screens */
     .ion-hide-md-down {
       display: none !important; /* Hide elements for mobile screens */
+    }
+
+    .contact-card {
+      display: block;
     }
   }
   

@@ -2,7 +2,7 @@
         "title": "www.markfaradaygray.com",
         "description": "this website!",
         "codeUrl": "https://github.com/thekitbag/my-personal-website",
-        "technologies": ["Ionic", "React", "Typescript", "Docker", "Azure"]
+        "technologies": ["Ionic", "React", "Typescript", "Docker", "Azure", "Contentful"]
     },
     {
         "title": "Harkwise",

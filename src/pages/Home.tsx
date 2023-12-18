@@ -7,7 +7,7 @@ import Frameworks from '../components/Frameworks';
 import './Home.css'
 import ContactInfo from '../components/Contact';
 import Projects from '../components/Projects';
-
+import BlogPostPreviews from '../components/BlogPostPreviews';
 const HomePage = () => {
 
   const scrollToSection = async (sectionId: string) => {
@@ -59,20 +59,21 @@ const HomePage = () => {
         <div id='contact' />
         <ContactInfo />
         <IonItem lines="none" id="about">
-          <IonList>
+          <IonList className='section-list'>
             <IonTitle className="section-header">About Me</IonTitle>
             <IonText className='section-blurb'>
-              I’ve spent the last 10 years defining the missions, strategies and success metrics for impactful
-              product verticals and individual cross-functional squads. I am happiest in a player-coach role where I can 
-              be close enough to the action to feel the buzz of shipping something that moves the needle, whilst building 
-              a team that has the skills, processes and culture to do it consistently themselves. <br /><br />
-              I built this site myself to showcase my product and web development skills and it's still very much a work in progress
-              so go easy on the judgement.  
+              It's probably a bit cringey but I'd probably describe myself as a full-stack product manager. I've been doing it for
+              ten years across startups and scaleups, B2B and B2C, gaming and EdTech. I've done UX research and mockups, data analysis,
+              integrations, internal tools, rention focus, acquisition focus, people management, the lot. Jack of all trades and master of 
+              none? Maybe. I prefer to think of myself as an all-rounder!
+              <br /><br />
+              I built this site because it was a side-project that might actually be useful (rather than collecting dust on github) and would offer me the chance to showcase my technical
+              skills and give me a platform for me to spout drivel about product management.
             </IonText>
           </IonList>
         </IonItem>
         <IonItem lines='none' id="skills">
-          <IonList>
+          <IonList className='section-list'>
             <IonTitle className="section-header">Skills</IonTitle>
             <IonText className='section-blurb'>
               Below is a non-exhaustive list of the skills I have gained through ten years of shipping products, some of which even had an impact on the business!
@@ -81,7 +82,7 @@ const HomePage = () => {
           </IonList>
         </IonItem>
         <IonItem lines="none" id="frameworks">
-          <IonList>
+          <IonList className='section-list'>
             <IonTitle className="section-header">Frameworks</IonTitle>
             <IonText className='section-blurb'>
               These are some of the frameworks that I have used to help focus my teams' time and resources on the most important problems to solve.
@@ -92,7 +93,7 @@ const HomePage = () => {
           </IonList>
         </IonItem>
         <IonItem lines='none' id="experience">
-          <IonList>
+          <IonList className='section-list'>
             <IonTitle className="section-header">Professional Experience</IonTitle>
             <IonText className='section-blurb'>
             10 years across B2B and B2C startups and scaleups. Initially in the gaming industry (gambling when you're not trying hard to make it sound softer)
@@ -103,7 +104,7 @@ const HomePage = () => {
           </IonList>
         </IonItem>
         <IonItem lines='none' id='tools'>
-          <IonList>
+          <IonList className='section-list'>
             <IonTitle className="section-header">Tools</IonTitle>
             <IonText className='section-blurb'>
             Over the years I've used various tools in my day to day work as Product Manager. Honestly, listing these feels somewhat ridiculous
@@ -113,13 +114,19 @@ const HomePage = () => {
           </IonList>
         </IonItem>
         <IonItem lines='none' id='projects'>
-          <IonList>
+          <IonList className='section-list'>
             <IonTitle className="section-header">Projects</IonTitle>
             <IonText className='section-blurb'>
               When I first started working as a PM I took an interest in the technical side of things. I taught myself how to code and 
               created various little projects to sharpen my skills.
             </IonText>
             <Projects />
+          </IonList>
+        </IonItem>
+        <IonItem lines="none" id='blog'>
+          <IonList className='section-list'>
+            <IonTitle className="section-header">Blog</IonTitle>
+            <BlogPostPreviews />
           </IonList>
         </IonItem>
       </IonContent>

@@ -1,0 +1,325 @@
+{
+    "sys": {
+        "type": "Array"
+    },
+    "total": 1,
+    "skip": 0,
+    "limit": 100,
+    "items": [
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "1s9rc0i44nhr"
+                    }
+                },
+                "id": "5Ffob3XoJGrQuKE5uRUugR",
+                "type": "Entry",
+                "createdAt": "2023-12-14T21:29:53.277Z",
+                "updatedAt": "2023-12-14T21:44:05.179Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 2,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "pageBlogPost"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "internalName": "prioritisation_post",
+                "seoFields": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Entry",
+                        "id": "362ZZAz4NykPIOtnT5Xzfe"
+                    }
+                },
+                "slug": "why-is-priortisation-sometimes-so-hard",
+                "publishedDate": "2022-12-04",
+                "title": "Why is Prioritisation Sometimes So Hard... But Not Always?",
+                "shortDescription": "And how to make it easy every time.",
+                "featuredImage": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Asset",
+                        "id": "45I6aJDqIZzFWkPTmhHVDl"
+                    }
+                },
+                "content": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "One of the most obvious ways that AR will change our lives is by enhancing the way we communicate. Today, we already use video calls and other forms of digital communication to connect with people who are far away. In the future, AR will take this to the next level by allowing us to see and interact with virtual representations of people in real time. This will make it feel like we're actually in the same room together, even if we're on opposite sides of the world.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "5MQ6wEY5qAZgGo2XtDpcnS",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Another way that AR will change our lives is by providing us with instant access to information. Imagine being able to point your phone at a building and immediately see information about its history and architectural significance. Or being able to scan an object and see a detailed description of its features and functions. With AR, all of this will be possible, giving us access to a wealth of knowledge at our fingertips.\nAR will also change the way we shop. Today, online shopping allows us to browse and purchase items from the comfort of our own homes. In the future, AR will make this experience even more immersive by allowing us to see how items look and fit in our own space before we make a purchase. This will make shopping faster, easier, and more convenient than ever before.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "2xCfDCfrQzCzzCtL0CfMZd",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Finally, AR has the potential to revolutionize the way we learn. Today, we often rely on books, lectures, and other static forms of education to gain knowledge. In the future, AR will make learning more interactive and engaging. For example, students could use AR to explore virtual environments and learn about different subjects in a hands-on way. This could make learning more fun and effective, and could even help to break down barriers to education for people who face challenges in a traditional learning environment.\nOverall, the future is looking bright for AR technology. By 2050, it's likely to be a pervasive part of our daily lives, enhancing the way we communicate, access information, shop, and learn. It's an exciting time to be alive, and we can't wait to see what the future holds for AR and other cutting-edge technologies.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "2HkPQmxT6XQvzkW82KvoPL",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            }
+        }
+    ],
+    "errors": [
+        {
+            "sys": {
+                "id": "notResolvable",
+                "type": "error"
+            },
+            "details": {
+                "id": "2HkPQmxT6XQvzkW82KvoPL",
+                "type": "Link",
+                "linkType": "Entry"
+            }
+        },
+        {
+            "sys": {
+                "id": "notResolvable",
+                "type": "error"
+            },
+            "details": {
+                "id": "2HkPQmxT6XQvzkW82KvoPL",
+                "type": "Link",
+                "linkType": "Entry"
+            }
+        },
+        {
+            "sys": {
+                "id": "notResolvable",
+                "type": "error"
+            },
+            "details": {
+                "id": "2xCfDCfrQzCzzCtL0CfMZd",
+                "type": "Link",
+                "linkType": "Entry"
+            }
+        },
+        {
+            "sys": {
+                "id": "notResolvable",
+                "type": "error"
+            },
+            "details": {
+                "id": "2xCfDCfrQzCzzCtL0CfMZd",
+                "type": "Link",
+                "linkType": "Entry"
+            }
+        },
+        {
+            "sys": {
+                "id": "notResolvable",
+                "type": "error"
+            },
+            "details": {
+                "id": "5MQ6wEY5qAZgGo2XtDpcnS",
+                "type": "Link",
+                "linkType": "Entry"
+            }
+        },
+        {
+            "sys": {
+                "id": "notResolvable",
+                "type": "error"
+            },
+            "details": {
+                "id": "5MQ6wEY5qAZgGo2XtDpcnS",
+                "type": "Link",
+                "linkType": "Entry"
+            }
+        }
+    ],
+    "includes": {
+        "Entry": [
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "1s9rc0i44nhr"
+                        }
+                    },
+                    "id": "362ZZAz4NykPIOtnT5Xzfe",
+                    "type": "Entry",
+                    "createdAt": "2023-12-14T21:29:53.300Z",
+                    "updatedAt": "2023-12-14T21:44:30.333Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 2,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "componentSeo"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "internalName": "prioritisation_seo",
+                    "pageTitle": "Why is Prioritisation Sometimes So Hard... But Not Always?",
+                    "pageDescription": "Prioritisation is only hard when you try to do it with dissimilar things.",
+                    "nofollow": false,
+                    "noindex": false,
+                    "shareImages": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Asset",
+                                "id": "45I6aJDqIZzFWkPTmhHVDl"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "Asset": [
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "1s9rc0i44nhr"
+                        }
+                    },
+                    "id": "45I6aJDqIZzFWkPTmhHVDl",
+                    "type": "Asset",
+                    "createdAt": "2023-12-14T21:29:39.484Z",
+                    "updatedAt": "2023-12-14T21:37:03.435Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 2,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Prioritisation img",
+                    "description": "Product Manager struggling to prioritise",
+                    "file": {
+                        "url": "//images.ctfassets.net/1s9rc0i44nhr/45I6aJDqIZzFWkPTmhHVDl/4142b2246ff8d56ad1e0d4fb490d860f/DALL_E_2023-12-14_21.36.05_-_A_humorous_illustration_of_a_product_manager__overwhelmed_and_surrounded_by_sticky_notes__chart.png",
+                        "details": {
+                            "size": 2188360,
+                            "image": {
+                                "width": 1024,
+                                "height": 1024
+                            }
+                        },
+                        "fileName": "DALL·E 2023-12-14 21.36.05 - A humorous illustration of a product manager, overwhelmed and surrounded by sticky notes, charts, and gadgets. The manager, a middle-aged Caucasian ma.png",
+                        "contentType": "image/png"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -27,7 +27,7 @@ const ContactInfo: React.FC = () => {
 
     return (
         <IonCard>
-            <IonCardContent>
+            <IonCardContent className='contact-card'>
                 <IonItem lines="none" button onClick={handleEmailClick}>
                     <IonIcon icon={mailOutline} slot="start" />
                     <IonLabel>{email}</IonLabel>

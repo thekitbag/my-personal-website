@@ -3,6 +3,7 @@ import { IonGrid, IonRow, IonCol, IonCard, IonCardHeader, IonCardTitle, IonCardC
 import { logoGithub } from 'ionicons/icons';
 import projects from '../data/projects.json';
 
+
 const Projects: React.FC = () => {
     return (
       <IonGrid>
