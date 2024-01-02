@@ -2,25 +2,25 @@
         "title": "www.markfaradaygray.com",
         "description": "this website!",
         "codeUrl": "https://github.com/thekitbag/my-personal-website",
-        "technologies": ["Ionic", "React", "Typescript", "Docker", "Azure", "Contentful"]
+        "technologies": ["Ionic", "React", "Typescript", "Docker", "Azure", "Contentful", "Google Tag Manager", "Posthog"]
     },
     {
         "title": "Harkwise",
         "description": "User feedback and analytics for real-world businesses through QR codes and AI-synthesised insights",
         "codeUrl": "https://github.com/search?q=owner%3Athekitbag+harkwise&type=repositories",
-        "technologies": ["Flask", "Ionic", "React", "Typescript", "Docker", "Postgres", "Azure"]
+        "technologies": ["Flask", "Ionic", "React", "Typescript", "Docker", "Postgres", "Azure", "Google Tag Manager", "Google Analytics"]
     },
     {
         "title": "Hedgehog",
         "description": "A personal assistant for technophobes.",
         "codeUrl": "https://github.com/search?q=owner%3Athekitbag+gpthedgehog&type=repositories",
-        "technologies": ["Flask", "Ionic", "React", "Typescript", "Docker", "Postgres", "Azure", "ChatGPT-API"]
+        "technologies": ["Flask", "Ionic", "React", "Typescript", "Docker", "Postgres", "Azure", "ChatGPT-API", "Google Tag Manager", "Posthog"]
     },
     {
         "title": "Todoodleoo",
         "description": "To-do list app.",
         "code_url": "https://github.com/search?q=owner%3Athekitbag+todoodleoo&type=repositories",
-        "technologies": ["Flask", "React", "JavaScript", "Bootstrap", "Docker", "Postgres", "Azure", "ChatGPT-API"]
+        "technologies": ["Flask", "React", "JavaScript", "Bootstrap", "Docker", "Postgres", "Azure", "ChatGPT-API", "Google Analytics"]
     },
     {
         "title": "prices-scraper",

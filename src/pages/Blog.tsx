@@ -55,13 +55,47 @@ const BlogPost = () => {
     fetchBlogPost();
   }, [slug]);
 
+  const renderNodeContent = (nodeContent, index) => {
+    return nodeContent.map((contentNode, contentIndex) => {
+      if (contentNode.nodeType === 'text') {
+        return <span key={contentIndex}>{contentNode.value}</span>;
+      } else if (contentNode.nodeType === 'hyperlink') {
+        return (
+          <a
+            key={contentIndex}
+            href={contentNode.data.uri}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hyperlink"
+          >
+            {contentNode.content[0].value}
+          </a>
+        );
+      }
+      return null;
+    });
+  };
+
   const renderContent = (content, includes) => {
     return content.content.map((node, index) => {
+        if (['paragraph', 'blockquote'].includes(node.nodeType)) {
+          return (
+            <IonText key={index} className={node.nodeType === 'blockquote' ? 'blockquote-text' : ''}>
+              {renderNodeContent(node.content, index)}
+            </IonText>
+          );
+        }
       switch (node.nodeType) {
         case 'paragraph':
           return <IonText key={index}>{node.content[0].value}</IonText>;
+        case 'blockquote':
+            return  <IonCard>
+                        <IonCardContent>
+                            <IonText className='blockquote-text'>"{node.content[0].content[0].value}"</IonText>
+                        </IonCardContent>
+
+                    </IonCard>
         case 'embedded-entry-block':
-          // Look up the linked entry
           const linkedEntryId = node.data.target.sys.id;
           const linkedEntry = includes.Entry.find(entry => entry.sys.id === linkedEntryId);
   
