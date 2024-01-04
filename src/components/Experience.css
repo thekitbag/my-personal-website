@@ -2,31 +2,34 @@
     transition: transform 0.3s ease;
 }
 
-.experience-card.expanded {
-    /* Optional: Apply some styling when the card is expanded */
-}
-
 .card-header {
-    display: flex;
-    align-items: center;
-    padding: 16px; 
+    width: 100%;
 }
 
 .company-logo {
-    width: 80px;
+    width: 100%; /* Make the logo responsive */
+    max-width: 120px; /* Set a max-width to control the size */
     height: auto;
     object-fit: contain;
-    margin-right: 16px; 
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the text vertically */
+    text-align: center; /* Center the text horizontally */
 }
 
 .expand-icon {
-    margin-left: auto;
-    padding: 16px; 
-    cursor: pointer; 
+    display: flex;
+    align-items: center; /* Align the icon vertically */
+    justify-content: center; /* Center the icon horizontally */
+    cursor: pointer;
 }
 
-.experience-card {
-    /* ... existing styles ... */
+/* When the card is not expanded, the row should center its children vertically */
+.align-items-center {
+    align-items: center;
 }
 
 .experience-card.expanded .ion-card-content {
@@ -58,9 +61,6 @@
     color: var(--ion-color-dark);
 }
 
-@media (min-width: 576px) {
-    .experience-card {
-        cursor: pointer;
-    }
+.experience-bullet {
+    padding: 3px;
 }
-

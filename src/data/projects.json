@@ -20,7 +20,7 @@
         "title": "Todoodleoo",
         "description": "To-do list app.",
         "code_url": "https://github.com/search?q=owner%3Athekitbag+todoodleoo&type=repositories",
-        "technologies": ["Flask", "React", "JavaScript", "Bootstrap", "Docker", "Postgres", "Azure", "ChatGPT-API", "Google Analytics"]
+        "technologies": ["Flask", "React", "JavaScript", "Bootstrap", "Docker", "Postgres", "Google Cloud Platform", "Google Analytics"]
     },
     {
         "title": "prices-scraper",

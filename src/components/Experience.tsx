@@ -32,26 +32,34 @@ const Experience: React.FC = () => {
                     const typedExperience = experience as unknown as ExperienceData;
                     const isExpanded = expanded === typedExperience.company;
                     return (
-                        <IonCol size-xs="12" size-sm={isExpanded ? "12" : "6"} key={index}>
-                            <IonCard className= {`experience-card card-component ${isExpanded ? 'expanded' : ''}`} onClick={() => toggleExpand(experience.company)}>
-                                <div className='card-header'>
-                                    <IonImg src={experience.logoUrl} className='company-logo' />
-                                    <IonCardHeader>
-                                        <IonCardTitle>{experience.role} - {experience.company}</IonCardTitle>
-                                        <IonCardSubtitle className='duration'>{experience.duration}</IonCardSubtitle>
-                                        <p className='company-type'>{typedExperience.company_type}</p>
-                                    </IonCardHeader>
-                                    <IonIcon icon={isExpanded ? chevronUpOutline : chevronDownOutline} className='expand-icon' />
-                                </div>
+                        <IonCol size="12" key={index}>
+                            <IonCard className={`experience-card card-component ${isExpanded ? 'expanded' : ''}`} onClick={() => toggleExpand(experience.company)}>
+                                <IonGrid className='card-header'>
+                                    <IonRow className={isExpanded ? '' : 'align-items-center'}>
+                                        <IonCol size="2">
+                                            <IonImg src={experience.logoUrl} className='company-logo' />
+                                        </IonCol>
+                                        <IonCol size="9" className='text-container'>
+                                            <IonCardHeader>
+                                                <IonCardTitle>{experience.role} - {experience.company}</IonCardTitle>
+                                                <IonCardSubtitle className='duration'>{experience.duration}</IonCardSubtitle>
+                                                <p className='company-type'>{typedExperience.company_type}</p>
+                                            </IonCardHeader>
+                                        </IonCol>
+                                        <IonCol size="1">
+                                            <IonIcon icon={isExpanded ? chevronUpOutline : chevronDownOutline} className='expand-icon' />
+                                        </IonCol>
+                                    </IonRow>
+                                </IonGrid>
                                 {isExpanded && (
                                     <IonCardContent>
                                         <div className='tags-container'>
                                             {typedExperience.tags.map(tag => <IonChip key={tag}>{tag}</IonChip>)}
                                         </div>
                                         <p className='intro'>{typedExperience.intro}</p>
-                                        <IonList>
+                                        <IonList lines='none'>
                                             {typedExperience.bullets.map((bullet, index) => (
-                                                <IonItem key={index}>{bullet}</IonItem>
+                                                <IonItem className="experience-bullet" key={index}>{bullet}</IonItem>
                                             ))}
                                         </IonList>
                                     </IonCardContent>

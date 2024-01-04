@@ -67,8 +67,8 @@ const HomePage = () => {
               integrations, internal tools, rention focus, acquisition focus, people management, the lot. Jack of all trades and master of 
               none? Maybe. I prefer to think of myself as an all-rounder.
               <br /><br />
-              I built this site because it was a side-project that might actually be useful (rather than collecting dust on github like the others) and would offer me the chance to showcase my technical
-              skills whilst also giving me a platform for me to spout drivel about product management.
+              I built this site as a side-project which would allow me to practise my coding hobby and might actually be vaguely useful
+              rather than collecting dust on github like ll of the others.
             </IonText>
           </IonList>
         </IonItem>
@@ -97,7 +97,9 @@ const HomePage = () => {
             <IonTitle className="section-header">Professional Experience</IonTitle>
             <IonText className='section-blurb'>
             10 years across B2B and B2C startups and scaleups. Initially in the gaming industry (gambling when you're not trying hard to make it sound softer)
-            and then more recently moving into EdTech. I'm not going back to gambling, I like working on products that are making the world a slightly better place!
+            and then more recently moving into EdTech. I'm not going back to gambling, I like working on products that are making the world a slightly better place
+            rather than a slightly worse one.
+            <br /><br />
             Expand each to read a bit more about the products I worked on and the impact I was able to have.
             </IonText>
             <Experience  />
@@ -115,7 +117,7 @@ const HomePage = () => {
         </IonItem>
         <IonItem lines='none' id='projects'>
           <IonList className='section-list'>
-            <IonTitle className="section-header">Projects</IonTitle>
+            <IonTitle className="section-header">Side Projects</IonTitle>
             <IonText className='section-blurb'>
               When I first started working as a PM I took an interest in the technical side of things. I taught myself how to code and 
               created various little projects to sharpen my skills.

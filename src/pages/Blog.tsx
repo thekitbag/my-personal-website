@@ -58,7 +58,20 @@ const BlogPost = () => {
   const renderNodeContent = (nodeContent, index) => {
     return nodeContent.map((contentNode, contentIndex) => {
       if (contentNode.nodeType === 'text') {
-        return <span key={contentIndex}>{contentNode.value}</span>;
+        let textElement = <span key={contentIndex}>{contentNode.value}</span>;
+  
+        if (contentNode.marks && contentNode.marks.length > 0) {
+          contentNode.marks.forEach(mark => {
+            if (mark.type === 'italic') {
+              textElement = <em key={contentIndex}>{textElement}</em>;
+            } else if (mark.type === 'bold') {
+              textElement = <strong key={contentIndex}>{textElement}</strong>;
+            }
+            // Handle other mark types if needed
+          });
+        }
+  
+        return textElement;
       } else if (contentNode.nodeType === 'hyperlink') {
         return (
           <a
@@ -75,6 +88,7 @@ const BlogPost = () => {
       return null;
     });
   };
+  
 
   const renderContent = (content, includes) => {
     return content.content.map((node, index) => {
@@ -106,6 +120,7 @@ const BlogPost = () => {
             if (imageAsset) {
               return (
                 <IonImg
+                  className='embedded-img'
                   key={index}
                   src={`https:${imageAsset.fields.file.url}`}
                   alt={imageAsset.fields.title || 'Embedded Image'}
