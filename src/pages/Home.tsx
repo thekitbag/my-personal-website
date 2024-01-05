@@ -100,7 +100,7 @@ const HomePage = () => {
             and then more recently moving into EdTech. I'm not going back to gambling, I like working on products that are making the world a slightly better place
             rather than a slightly worse one.
             <br /><br />
-            Expand each to read a bit more about the products I worked on and the impact I was able to have.
+            Click or tap on a card below to expand it and read a bit more about the products I worked on and the impact I was able to have.
             </IonText>
             <Experience  />
           </IonList>

@@ -39,18 +39,23 @@ const Experience: React.FC = () => {
                                         <IonCol size="2">
                                             <IonImg src={experience.logoUrl} className='company-logo' />
                                         </IonCol>
-                                        <IonCol size="9" className='text-container'>
+                                        <IonCol size="10" className='text-container'>
                                             <IonCardHeader>
                                                 <IonCardTitle>{experience.role} - {experience.company}</IonCardTitle>
                                                 <IonCardSubtitle className='duration'>{experience.duration}</IonCardSubtitle>
                                                 <p className='company-type'>{typedExperience.company_type}</p>
                                             </IonCardHeader>
                                         </IonCol>
-                                        <IonCol size="1">
-                                            <IonIcon icon={isExpanded ? chevronUpOutline : chevronDownOutline} className='expand-icon' />
-                                        </IonCol>
                                     </IonRow>
                                 </IonGrid>
+                                <IonCardContent className={`${isExpanded ? 'hidden' : ''}`}>
+                                    <div className='tags-container'>
+                                        {typedExperience.tags.map(tag => <IonChip key={tag}>{tag}</IonChip>)}
+                                    </div>
+                                    <p className='intro'>{typedExperience.intro}</p>
+                                    <IonItem className="experience-bullet">{typedExperience.bullets[0].slice(0,160) + "..."}</IonItem>
+                                    <a>Read More</a>
+                                </IonCardContent>
                                 {isExpanded && (
                                     <IonCardContent>
                                         <div className='tags-container'>
