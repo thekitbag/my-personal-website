@@ -64,11 +64,11 @@ const HomePage = () => {
             <IonText className='section-blurb'>
               It's probably a bit cringey but I'd describe myself as a full-stack product person. I've been doing it for
               ten years across startups and scaleups, B2B and B2C, gaming and EdTech. I've done UX research and mockups, data analysis,
-              integrations, internal tools, rention focus, acquisition focus, people management, the lot. Jack of all trades and master of 
+              integrations, internal tools, retention focus, acquisition focus, people management, the lot. Jack of all trades and master of 
               none? Maybe. I prefer to think of myself as an all-rounder.
               <br /><br />
               I built this site as a side-project which would allow me to practise my coding hobby and might actually be vaguely useful
-              rather than collecting dust on github like ll of the others.
+              rather than collecting dust on github like all of the others.
             </IonText>
           </IonList>
         </IonItem>

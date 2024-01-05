@@ -1,6 +1,6 @@
 import React from 'react';
 import { IonCard, IonCardContent, IonIcon, IonItem, IonLabel } from '@ionic/react';
-import { mailOutline, callOutline, logoLinkedin, logoGithub } from 'ionicons/icons';
+import { mailOutline, callOutline, logoLinkedin, logoGithub, logoTwitter } from 'ionicons/icons';
 
 const ContactInfo: React.FC = () => {
     // Define your contact information
@@ -8,6 +8,7 @@ const ContactInfo: React.FC = () => {
     const phoneNumber = '+447872944542';
     const linkedInUrl = 'https://linkedin.com/in/mark-faraday-gray';
     const githubUrl = 'https://github.com/thekitbag';
+    const twitterUrl = 'https://twitter.com/MarkFaradayGray'
 
     const handleEmailClick = () => {
         window.location.href = `mailto:${email}`;
@@ -25,6 +26,10 @@ const ContactInfo: React.FC = () => {
         window.open(githubUrl, '_blank');
     };
 
+    const handleTwitterClick = () => {
+        window.open(twitterUrl, '_blank');
+    };
+
     return (
         <IonCard>
             <IonCardContent className='contact-card'>
@@ -38,11 +43,15 @@ const ContactInfo: React.FC = () => {
                 </IonItem>
                 <IonItem lines="none" button onClick={handleLinkedInClick}>
                     <IonIcon icon={logoLinkedin} slot="start" />
-                    <IonLabel>LinkedIn Profile</IonLabel>
+                    <IonLabel>LinkedIn</IonLabel>
+                </IonItem>
+                <IonItem lines="none" button onClick={handleTwitterClick}>
+                    <IonIcon icon={logoTwitter} slot="start" />
+                    <IonLabel>Twitter</IonLabel>
                 </IonItem>
                 <IonItem lines="none" button onClick={handleGithubClick}>
                     <IonIcon icon={logoGithub} slot="start" />
-                    <IonLabel>GitHub Profile</IonLabel>
+                    <IonLabel>GitHub</IonLabel>
                 </IonItem>
             </IonCardContent>
         </IonCard>
