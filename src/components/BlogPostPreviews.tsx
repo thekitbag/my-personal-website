@@ -20,6 +20,7 @@ const BlogPostPreviews = () => {
       try {
         const response = await client.getEntries({
           content_type: 'pageBlogPost',
+          'fields.liveHidden': 'false'
         });
         setPosts(response.items);
       } catch (error) {

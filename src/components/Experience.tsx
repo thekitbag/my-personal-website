@@ -34,27 +34,19 @@ const Experience: React.FC = () => {
                     return (
                         <IonCol size="12" key={index}>
                             <IonCard className={`experience-card card-component ${isExpanded ? 'expanded' : ''}`} onClick={() => toggleExpand(experience.company)}>
-                                <IonGrid className='card-header'>
-                                    <IonRow className={isExpanded ? '' : 'align-items-center'}>
-                                        <IonCol size="2">
-                                            <IonImg src={experience.logoUrl} className='company-logo' />
-                                        </IonCol>
-                                        <IonCol size="10" className='text-container'>
-                                            <IonCardHeader>
-                                                <IonCardTitle>{experience.role} - {experience.company}</IonCardTitle>
-                                                <IonCardSubtitle className='duration'>{experience.duration}</IonCardSubtitle>
-                                                <p className='company-type'>{typedExperience.company_type}</p>
-                                            </IonCardHeader>
-                                        </IonCol>
-                                    </IonRow>
-                                </IonGrid>
+                                <IonImg src={experience.logoUrl} className='company-logo' />
+                                <IonCardHeader>
+                                    <IonCardTitle>{experience.role} - {experience.company}</IonCardTitle>
+                                    <IonCardSubtitle className='duration'>{experience.duration}</IonCardSubtitle>
+                                    <p className='company-type'>{typedExperience.company_type}</p>
+                                </IonCardHeader>       
                                 <IonCardContent className={`${isExpanded ? 'hidden' : ''}`}>
                                     <div className='tags-container'>
                                         {typedExperience.tags.map(tag => <IonChip key={tag}>{tag}</IonChip>)}
                                     </div>
                                     <p className='intro'>{typedExperience.intro}</p>
                                     <IonItem className="experience-bullet">{typedExperience.bullets[0].slice(0,160) + "..."}</IonItem>
-                                    <a>Read More</a>
+                                    <IonIcon icon={chevronDownOutline} size="large" />
                                 </IonCardContent>
                                 {isExpanded && (
                                     <IonCardContent>
@@ -67,6 +59,7 @@ const Experience: React.FC = () => {
                                                 <IonItem className="experience-bullet" key={index}>{bullet}</IonItem>
                                             ))}
                                         </IonList>
+                                        <IonIcon icon={chevronUpOutline} size="large" />
                                     </IonCardContent>
                                 )}
                             </IonCard>

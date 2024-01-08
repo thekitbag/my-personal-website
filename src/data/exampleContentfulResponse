@@ -21,7 +21,7 @@
                 "id": "5Ffob3XoJGrQuKE5uRUugR",
                 "type": "Entry",
                 "createdAt": "2023-12-14T21:29:53.277Z",
-                "updatedAt": "2023-12-14T21:44:05.179Z",
+                "updatedAt": "2024-01-07T13:18:01.661Z",
                 "environment": {
                     "sys": {
                         "id": "master",
@@ -29,7 +29,7 @@
                         "linkType": "Environment"
                     }
                 },
-                "revision": 2,
+                "revision": 9,
                 "contentType": {
                     "sys": {
                         "type": "Link",
@@ -40,7 +40,7 @@
                 "locale": "en-US"
             },
             "fields": {
-                "internalName": "prioritisation_post",
+                "internalName": "Prioritisation",
                 "seoFields": {
                     "sys": {
                         "type": "Link",
@@ -60,166 +60,263 @@
                     }
                 },
                 "content": {
+                    "nodeType": "document",
                     "data": {},
                     "content": [
                         {
+                            "nodeType": "paragraph",
                             "data": {},
                             "content": [
                                 {
-                                    "data": {},
+                                    "nodeType": "text",
+                                    "value": "Saying prioritisation is important for product managers is a bit like saying power and direction are important in golf. It’s not so much a part of the job as the job itself. So you would think that after decades of practice and terabytes of PM-influencer content on the net, it would be a solved problem. Yet PMs around the world are still squirming when asked to prioritise between fixing that P2 bug and that idea the CEO has about improving retention. I believe there is a simple approach that we can take, inspired by our day-to-day lives.",
                                     "marks": [],
-                                    "value": "One of the most obvious ways that AR will change our lives is by enhancing the way we communicate. Today, we already use video calls and other forms of digital communication to connect with people who are far away. In the future, AR will take this to the next level by allowing us to see and interact with virtual representations of people in real time. This will make it feel like we're actually in the same room together, even if we're on opposite sides of the world.",
-                                    "nodeType": "text"
+                                    "data": {}
                                 }
-                            ],
-                            "nodeType": "paragraph"
+                            ]
                         },
                         {
-                            "data": {
-                                "target": {
-                                    "sys": {
-                                        "id": "5MQ6wEY5qAZgGo2XtDpcnS",
-                                        "type": "Link",
-                                        "linkType": "Entry"
-                                    }
-                                }
-                            },
-                            "content": [],
-                            "nodeType": "embedded-entry-block"
-                        },
-                        {
+                            "nodeType": "blockquote",
                             "data": {},
                             "content": [
                                 {
+                                    "nodeType": "paragraph",
                                     "data": {},
-                                    "marks": [],
-                                    "value": "Another way that AR will change our lives is by providing us with instant access to information. Imagine being able to point your phone at a building and immediately see information about its history and architectural significance. Or being able to scan an object and see a detailed description of its features and functions. With AR, all of this will be possible, giving us access to a wealth of knowledge at our fingertips.\nAR will also change the way we shop. Today, online shopping allows us to browse and purchase items from the comfort of our own homes. In the future, AR will make this experience even more immersive by allowing us to see how items look and fit in our own space before we make a purchase. This will make shopping faster, easier, and more convenient than ever before.",
-                                    "nodeType": "text"
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "In our day-to-day lives we never try to prioritise between dissimilar things",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
                                 }
-                            ],
-                            "nodeType": "paragraph"
+                            ]
                         },
                         {
-                            "data": {
-                                "target": {
-                                    "sys": {
-                                        "id": "2xCfDCfrQzCzzCtL0CfMZd",
-                                        "type": "Link",
-                                        "linkType": "Entry"
-                                    }
-                                }
-                            },
-                            "content": [],
-                            "nodeType": "embedded-entry-block"
-                        },
-                        {
+                            "nodeType": "paragraph",
                             "data": {},
                             "content": [
                                 {
-                                    "data": {},
+                                    "nodeType": "text",
+                                    "value": "Whilst product managers are explicitly tasked with prioritising the resources at their disposal to solve the most important user problems and create the maximum business impact, prioritisation is not a skill specific to this domain. In fact, each and every one of us is prioritising our most precious resource every day: our time. And yet we don’t struggle here in the same way. Rarely are we left with furrowed brows wondering whether to go to the cinema or go to work. Or whether to write that documentation or go for a run. Those examples may seem silly but they illustrate the way we have solved the prioritisation problem. In our day-to-day lives we never try to prioritise between dissimilar things. We divide our time into buckets (work, sleep, entertainment, chores, self-care etc.), decide how much time we want to dedicate to each and then only prioritise within a bucket, making the prioritisation trivial. We only have to decide between seeing friends and watching Netflix or running versus lifting weights and never between doing the washing up and brushing our teeth. ",
                                     "marks": [],
-                                    "value": "Finally, AR has the potential to revolutionize the way we learn. Today, we often rely on books, lectures, and other static forms of education to gain knowledge. In the future, AR will make learning more interactive and engaging. For example, students could use AR to explore virtual environments and learn about different subjects in a hands-on way. This could make learning more fun and effective, and could even help to break down barriers to education for people who face challenges in a traditional learning environment.\nOverall, the future is looking bright for AR technology. By 2050, it's likely to be a pervasive part of our daily lives, enhancing the way we communicate, access information, shop, and learn. It's an exciting time to be alive, and we can't wait to see what the future holds for AR and other cutting-edge technologies.",
-                                    "nodeType": "text"
+                                    "data": {}
                                 }
-                            ],
-                            "nodeType": "paragraph"
+                            ]
                         },
                         {
-                            "data": {
-                                "target": {
-                                    "sys": {
-                                        "id": "2HkPQmxT6XQvzkW82KvoPL",
-                                        "type": "Link",
-                                        "linkType": "Entry"
-                                    }
-                                }
-                            },
-                            "content": [],
-                            "nodeType": "embedded-entry-block"
-                        },
-                        {
+                            "nodeType": "blockquote",
                             "data": {},
                             "content": [
                                 {
+                                    "nodeType": "paragraph",
                                     "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": " Instead of starting with a list of solutions, why not create buckets of work around particular goals, decide how much effort to dedicate to each and then only prioritise items within the bucket. ",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "So why oh why are so many PMs still trying to prioritise their team's work by listing a load of potential features and using some excel-based scoring system to work out which one to do first? Imagine if you prioritised your day like that. I suspect you would end up tired, hungry and unwashed. Instead of starting with a list of solutions, why not create buckets of work around particular goals, decide how much effort to dedicate to each and then only prioritise items within the bucket. ",
                                     "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "I usually start with three macro buckets: Metric Movers, BAU/Requests and Platform Work. Metric Movers are the things we are doing to really move the needle on a specific leading indicator that we have the ability to move with improvements to the product and will create an OKR around.  BAU/Requests are the bits and pieces we need to do to keep the lights on  as well as anything other teams need from us. Finally, Platform Work is the non-functional things we need to do to allow us to go faster in the future - reducing tech debt, upgrading versions, increasing automation etc. Together with the tech and design lead we will decide how much to dedicate to each bucket (in Q1 2024 we are going for 70",
+                                    "marks": [],
+                                    "data": {}
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "/20/10 ",
+                                    "marks": [],
+                                    "data": {}
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "but in previous teams with different topologies, different dependant teams and different amounts of tech debt those percentages have looked very different). ",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "If need be we can create sub-buckets, for example if looking to move the needle on two different metrics or when looking to focus on multiple aspects of the platform. Or perhaps you might want to spend 80% of your metric moving initiatives on bigger riskier things and 20% on smaller incremental improvements.",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "The final step that I like to take is to do some back of napkin maths on what these allocations mean in terms of story points. We know our velocity and we know how many sprints there are in the quarter so we can say what 20% of our Metric Movers equates to. Throughout the quarter we can then check to see how far we are deviating from what we set out to do.",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "What we have with this approach is a relatively thin layer of strategy. There are numerous benefits to working in this way, each of which could probably be its own post:",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "unordered-list",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "list-item",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "paragraph",
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "nodeType": "text",
+                                                    "value": "You'll find your prioritisation decisions much easier than before. A bug gets raised, how does it compare to the other BAU work? A stakeholder has a brainwave for boosting retention, how does it compare to the other retention-focused ideas you have considered? Marketing asks for a piece of work, how does it compare to the other requests?",
+                                                    "marks": [],
+                                                    "data": {}
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeType": "list-item",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "paragraph",
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "nodeType": "text",
+                                                    "value": "You have a framework for a much more constructive discussion with your stakeholders. Rather than \"you should build X\" you will start hearing \"you should allocating more effort to X\". Instead of saying \"no\" to ideas and requests you will be able to say \"We've allocated X% of efforts to this sort of work and these other things are currently above this in the priority order, do you agree with the prioritisation?\".",
+                                                    "marks": [],
+                                                    "data": {}
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeType": "list-item",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "paragraph",
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "nodeType": "text",
+                                                    "value": "You can start to move from estimates to appetites. Rather than \"how big is this feature\" you can ask \"how much of our resources do we want to give to this feature? How can we get the scope down so that it only constitutes X% of our metric moving budget?\"",
+                                                    "marks": [],
+                                                    "data": {}
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "If you want to try this, here's a simple template (yes I'm aware of the irony of this being excel-based): ",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "What are the downsides of an approach like this",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
                                     "value": "",
-                                    "nodeType": "text"
+                                    "marks": [],
+                                    "data": {}
                                 }
-                            ],
-                            "nodeType": "paragraph"
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": " ",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
                         }
-                    ],
-                    "nodeType": "document"
+                    ]
                 }
-            }
-        }
-    ],
-    "errors": [
-        {
-            "sys": {
-                "id": "notResolvable",
-                "type": "error"
-            },
-            "details": {
-                "id": "2HkPQmxT6XQvzkW82KvoPL",
-                "type": "Link",
-                "linkType": "Entry"
-            }
-        },
-        {
-            "sys": {
-                "id": "notResolvable",
-                "type": "error"
-            },
-            "details": {
-                "id": "2HkPQmxT6XQvzkW82KvoPL",
-                "type": "Link",
-                "linkType": "Entry"
-            }
-        },
-        {
-            "sys": {
-                "id": "notResolvable",
-                "type": "error"
-            },
-            "details": {
-                "id": "2xCfDCfrQzCzzCtL0CfMZd",
-                "type": "Link",
-                "linkType": "Entry"
-            }
-        },
-        {
-            "sys": {
-                "id": "notResolvable",
-                "type": "error"
-            },
-            "details": {
-                "id": "2xCfDCfrQzCzzCtL0CfMZd",
-                "type": "Link",
-                "linkType": "Entry"
-            }
-        },
-        {
-            "sys": {
-                "id": "notResolvable",
-                "type": "error"
-            },
-            "details": {
-                "id": "5MQ6wEY5qAZgGo2XtDpcnS",
-                "type": "Link",
-                "linkType": "Entry"
-            }
-        },
-        {
-            "sys": {
-                "id": "notResolvable",
-                "type": "error"
-            },
-            "details": {
-                "id": "5MQ6wEY5qAZgGo2XtDpcnS",
-                "type": "Link",
-                "linkType": "Entry"
             }
         }
     ],

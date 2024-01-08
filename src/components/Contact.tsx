@@ -5,17 +5,12 @@ import { mailOutline, callOutline, logoLinkedin, logoGithub, logoTwitter } from 
 const ContactInfo: React.FC = () => {
     // Define your contact information
     const email = 'markfaradaygray@gmail.com';
-    const phoneNumber = '+447872944542';
     const linkedInUrl = 'https://linkedin.com/in/mark-faraday-gray';
     const githubUrl = 'https://github.com/thekitbag';
     const twitterUrl = 'https://twitter.com/MarkFaradayGray'
 
     const handleEmailClick = () => {
         window.location.href = `mailto:${email}`;
-    };
-
-    const handlePhoneClick = () => {
-        window.location.href = `tel:${phoneNumber}`;
     };
 
     const handleLinkedInClick = () => {
@@ -36,10 +31,6 @@ const ContactInfo: React.FC = () => {
                 <IonItem lines="none" button onClick={handleEmailClick}>
                     <IonIcon icon={mailOutline} slot="start" />
                     <IonLabel>{email}</IonLabel>
-                </IonItem>
-                <IonItem lines="none" button onClick={handlePhoneClick}>
-                    <IonIcon icon={callOutline} slot="start" />
-                    <IonLabel>{phoneNumber}</IonLabel>
                 </IonItem>
                 <IonItem lines="none" button onClick={handleLinkedInClick}>
                     <IonIcon icon={logoLinkedin} slot="start" />
